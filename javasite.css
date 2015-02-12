@@ -26,3 +26,19 @@ p{
 	display: block;
 	margin: 0 auto;
 }
+
+.picture img {
+  height: 400px;
+  width: 400px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.picture img:hover {
+  width: 600px;
+  height: 600px;
+}
