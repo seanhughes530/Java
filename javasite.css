@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+}
+
+h1{
+	font-size: 3.0rem;
+}
+
+.picture{
+	max-width: 1000px; 
+}
