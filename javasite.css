@@ -2,10 +2,27 @@ body{
 	text-align: center;
 }
 
-h1{
-	font-size: 3.0rem;
+.line{
+	margin:0 auto;
+	width:70%;
+	height:4px;
+	background:#000000;
+
+}
+
+.description{
+	padding-bottom: 50px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+p{
+	padding-top: 50px;
 }
 
 .picture{
 	max-width: 1000px; 
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
