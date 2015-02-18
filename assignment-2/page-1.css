@@ -1,0 +1,80 @@
+body{
+	text-align: center;
+	border: solid;
+	border-width: 20px;
+}
+
+h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 5.0em;
+	line-height: 30%;
+}
+
+.line{
+	height: 3px;
+	width: 80%;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.description{
+	font-size: 1.5em;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 25px;
+	background-color: black;
+	color: white;
+}
+
+.pr{
+	padding-bottom: 75px;
+}
+
+.bf{
+	padding-bottom: 25px;
+	padding-top: 50px;
+}
+
+.pop{
+	font-size: 1.5em;
+	text-align: left;
+	padding-right: 175px;
+	padding-left: 550px;
+	padding-top: 15px;
+}
+
+.map{
+	float: left;
+	padding-left: 200px;
+}
+
+.behavior{
+	text-align: right;
+	padding-right: 550px;
+	padding-left: 175px;
+	font-size: 1.5em;
+}
+
+.food{
+	text-align: right;
+	padding-right: 175px;
+	float: right;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: green;
+}
+
+.source{
+	background-color: black;
+	color: white;
+	padding-top:25px;
+	padding-bottom: 25px;
+}

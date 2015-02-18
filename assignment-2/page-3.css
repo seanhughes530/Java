@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	border: solid;
+	border-width: 20px;
+}
+
+h1{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 5.0em;
+	line-height: 30%;
+}
+
+h2{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2.0em;
+	line-height: 10%;
+	padding-bottom: 50px;
+}
+
+.description{
+	font-size: 1.5em;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 25px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: green;
+}
+
+.line{
+	height: 3px;
+	width: 80%;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.source{
+	background-color: black;
+	color: white;
+	padding-top:25px;
+	padding-bottom: 25px;
+}
