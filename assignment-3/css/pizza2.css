@@ -3,6 +3,8 @@
 	padding: 0;
 }
 
+/* Side Nav Bar*/
+
 .sidebar{
 	width:25%;
 	height: 100%;
@@ -14,6 +16,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 20px;
 }
 
 .sidebar ul{
@@ -21,7 +24,7 @@
 }
 
 .sidebar li{
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .sidebar a{
@@ -29,11 +32,56 @@
 	text-decoration: none;
 }
 
+.caption{
+	width: 75%;
+	padding-left: 25%;
+	position:absolute;
+	text-align: right;
+	color: black;
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* Hover Effects */
+
+a:hover{
+	color:red;
+}
+
+img:hover{
+	opacity:0.6;
+	transition-duration:0.5s;
+}
+
+img:hover .caption{
+	visibility: visible;
+	opacity: 1;
+	transition-duration:0.5s;
+}
+
+/* Content */
+
 .content{
 	width: 75%;
 	padding-left: 25%;
 }
 
 .content img{
+	display: block;
 	width:100%;
+	margin:0;
+	padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
