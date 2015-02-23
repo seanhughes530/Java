@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.sidebar{
+	width:25%;
+	height: 100%;
+	position:fixed;
+}
+
+.sidebar img{
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sidebar ul{
+	text-align: center;
+}
+
+.sidebar li{
+	padding-bottom: 20px;
+}
+
+.sidebar a{
+	color: #000;
+	text-decoration: none;
+}
+
+.content{
+	width: 75%;
+	padding-left: 25%;
+}
+
+.content img{
+	width:100%;
+}
