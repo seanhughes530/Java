@@ -2,14 +2,21 @@
 
 .container{
 	text-align: center;
-	margin-top:6%;
+	margin-top:4%;
 	margin-bottom: 5%;
 	padding-top:40px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	width: 100%;
 	position: fixed;
 	background-color: white;
 	opacity:0.7;
+}
+
+.container h1{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	font-size: 6.0em;
+	font-family: 'Wet Dream'
 }
 
 .container a{
@@ -25,10 +32,17 @@
 	padding:10px;
 }
 
+.container h2{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 15pt;
+	color:gray;
+}
+
 .background{
 	display: block;
 }
 
 .background img{
 	width: 100%;
+	display: inherit;
 }
