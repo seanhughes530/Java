@@ -16,7 +16,7 @@
 	padding-top: 40px;
 	padding-bottom: 50px;
 	font-size: 6.0em;
-	font-family: 'Wet Dream'
+	font-family: 'Wet Dream';
 }
 
 .container a{
@@ -30,12 +30,33 @@
 .container img{
 	width:300px;
 	padding:10px;
+	-webkit-transition: all 0.5s ease;  /*taken from http://designshack.net/articles/css/joshuajohnson-2/*/
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 .container h2{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 15pt;
-	color:gray;
+	color:#000;
+	display: table;
+	height: 100%;
+	width: 100%;
+	left:0;
+	position: absolute;
+	top: 92%;
+	opacity:0;
+  -webkit-transition: opacity 500ms;   /*help from http://geekgirllife.com/place-text-over-images-on-hover-without-javascript/*/
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.container h2 p{
+	font-family: 'Movie Letters';
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .background{
@@ -45,4 +66,24 @@
 .background img{
 	width: 100%;
 	display: inherit;
+	height: 100%;
 }
+
+/*hover effects*/
+
+.container img:hover{
+	filter:blur;
+}
+ 
+.container img:hover {
+  -webkit-filter: blur(3px);  /*taken from http://designshack.net/articles/css/joshuajohnson-2/*/
+}
+
+.container a:hover h2{
+	opacity:1;
+}
+
+
+
+
+
