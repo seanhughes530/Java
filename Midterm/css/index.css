@@ -53,10 +53,12 @@
 }
 
 .container h2 p{
-	font-family: 'Poly';
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	display: table-cell;
 	text-align: center;
-	vertical-align: middle;
+	padding-top: 5%;
+	color:white;
+	font-size: 1.5em;
 }
 
 .background{
@@ -64,9 +66,8 @@
 }
 
 .background img{
+	display:fixed;
 	width: 100%;
-	display: inherit;
-	height: 100%;
 }
 
 /*hover effects*/

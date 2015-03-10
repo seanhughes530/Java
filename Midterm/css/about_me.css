@@ -1,11 +1,82 @@
 *{padding: 0; margin: 0;}
 
+.content{
+	padding-bottom: 7%;
+}
+
+.head{
+	width:100%;
+	padding: 0;
+	margin:0;
+}
+
+.head img{
+	width:100%;
+	display:block;
+}
+
+.description{
+	width: 100%;
+	background-color: black;
+	padding: 0;
+	margin:0;
+}
+
+.description p{
+	color:white;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5em;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.images{
+	display:block;
+	margin:0;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+}
+
+.images img{
+	width:35%;
+	padding-left:7%;
+	padding-right: 7%;
+}
+
+.button{
+	width:100%;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.button a{
+	text-decoration: none;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.5em;
+	border: 1px solid white;
+	color:white;
+	background-color: black;
+	padding-top:1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 10px;
+	transition:0.5s ease;
+}
+
+
 .nav{
 	background-color: black;
+	bottom: 0;
 	height: 7%;
 	width: 100%;
 	text-align: center;
 	position: fixed;
+	opacity: 0.7;
 }
 
 .nav a{
@@ -14,15 +85,24 @@
 
 .nav li{
 	text-decoration: none;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.0em;
 	color:white;
 	list-style: none;
 	display: inline-block;
 	height:100%;
-	padding-top: 13%;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-top: 10%;
+	padding-left: 60px;
+	padding-right: 60px;
+	transition:0.5s ease;
 }
 
 li:hover{
 	color:red;
+}
+
+.button a:hover{
+	color:black;
+	background-color: white;
+	border: 1px solid black;
 }
