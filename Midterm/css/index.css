@@ -53,7 +53,8 @@
 }
 
 .container h2 p{
-	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-family 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.0em;
 	display: table-cell;
 	text-align: center;
 	padding-top: 5%;
