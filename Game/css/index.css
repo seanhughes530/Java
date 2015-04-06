@@ -1,0 +1,47 @@
+*{margin:0; padding:0; background-color: black;}
+
+.content{
+	width:100%;
+	background-color: black;
+}
+
+.midline{
+	position: absolute;
+	margin-left: 50%;
+	height:100%;
+	width:1%;
+	background-color: white;
+}
+
+.score-1{
+	position:absolute;
+	margin-left: 35%;
+	margin-top: 2%;
+	color:#dadada;
+	font-size: 4.0em;
+}
+
+.score-2{
+	position:absolute;
+	margin-left: 62%;
+	margin-top: 2%;
+	color:#dadada;
+	font-size: 4.0em;
+}
+
+.bar-1{
+	position:absolute;
+	background-color: white;
+	margin-top:20%;
+	width:1%;
+	height:20%;
+}
+
+.bar-2{
+	position:absolute;
+	background-color: white;
+	margin-top:20%;
+	width:1%;
+	height:20%;
+	margin-left:99%;
+}
