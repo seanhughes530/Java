@@ -1,47 +1,112 @@
-*{margin:0; padding:0; background-color: black;}
+*{margin:0; padding:0;}
 
 .content{
-	width:100%;
-	background-color: black;
+	width: 100%;
 }
 
-.midline{
-	position: absolute;
-	margin-left: 50%;
-	height:100%;
-	width:1%;
-	background-color: white;
+.title{
+	text-align: center;
+	margin-top: 1%;
+	font-size: 5.0em;
 }
 
-.score-1{
-	position:absolute;
-	margin-left: 35%;
-	margin-top: 2%;
-	color:#dadada;
-	font-size: 4.0em;
+.board{
+	background-color: #0f69b4;
+	width: 600px;
+	height: 600px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 1%;
 }
 
-.score-2{
-	position:absolute;
-	margin-left: 62%;
-	margin-top: 2%;
-	color:#dadada;
-	font-size: 4.0em;
+.square-1{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
 }
 
-.bar-1{
-	position:absolute;
-	background-color: white;
-	margin-top:20%;
-	width:1%;
-	height:20%;
+.square-2{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-3{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-4{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-5{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-6{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-7{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-8{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
+}
+.square-9{
+	background-color: #69b40f;
+	width: 30%;
+	height: 30%;
+	margin: 1.3%;
+	display: inline-block;
 }
 
-.bar-2{
-	position:absolute;
-	background-color: white;
-	margin-top:20%;
-	width:1%;
-	height:20%;
-	margin-left:99%;
+h3 {
+	font-size: 12.0em;
+	text-align: center;
+	font-family: Arial;
+}
+
+.score{
+	font-size: 3.0em;
+	text-align:center;
+}
+
+.score p{
+	display:inline-block;
+}
+
+.score-title{
+	margin-top: 1%;
+}
+
+.player1-score{
+	display:inline-block;
+}
+
+.player2-score{
+	display:inline-block;
 }
