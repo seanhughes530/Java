@@ -12,11 +12,13 @@
 
 .board{
 	background-color: #0f69b4;
-	width: 600px;
-	height: 600px;
-	margin-left: 30%;
-	margin-right: 30%;
+	width: 700px;
+	height: 700px;
+	margin-left: 25%;
 	margin-top: 1%;
+	margin-bottom: 3%;
+	padding-left: 0.65%;
+	padding-top: 0.75%;
 }
 
 .square-1{
@@ -25,6 +27,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .square-2{
@@ -33,6 +36,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-3{
 	background-color: #69b40f;
@@ -40,6 +44,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-4{
 	background-color: #69b40f;
@@ -47,6 +52,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-5{
 	background-color: #69b40f;
@@ -54,6 +60,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-6{
 	background-color: #69b40f;
@@ -61,6 +68,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-7{
 	background-color: #69b40f;
@@ -68,6 +76,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-8{
 	background-color: #69b40f;
@@ -75,6 +84,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 .square-9{
 	background-color: #69b40f;
@@ -82,6 +92,7 @@
 	height: 30%;
 	margin: 1.3%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 h3 {
@@ -90,23 +101,3 @@ h3 {
 	font-family: Arial;
 }
 
-.score{
-	font-size: 3.0em;
-	text-align:center;
-}
-
-.score p{
-	display:inline-block;
-}
-
-.score-title{
-	margin-top: 1%;
-}
-
-.player1-score{
-	display:inline-block;
-}
-
-.player2-score{
-	display:inline-block;
-}

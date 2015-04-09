@@ -17,30 +17,89 @@ var symbol7 = $('.square-7 h3');
 var symbol8 = $('.square-8 h3');
 var symbol9 = $('.square-9 h3');
 
+var player_one = 1;
+
 square1.click (function (e){
-	symbol1.text("X");
+	if ( player_one == 1 ){
+        symbol1.text("X");
+        player_one = 0;
+    } else {
+        symbol1.text("O");   
+        player_one = 1;
+    }   
 });
 square2.click (function (e){
-	symbol2.text("X");
+	if ( player_one == 1 ){
+        symbol2.text("X");
+        player_one = 0;
+    } else {
+        symbol2.text("O");   
+        player_one = 1;
+    }   
 });
 square3.click (function (e){
-	symbol3.text("X");
+	if ( player_one == 1 ){
+        symbol3.text("X");
+        player_one = 0;
+    } else {
+        symbol3.text("O");   
+        player_one = 1;
+    }   
 });
 square4.click (function (e){
-	symbol4.text("X");
+	if ( player_one == 1 ){
+        symbol4.text("X");
+        player_one = 0;
+    } else {
+        symbol4.text("O");   
+        player_one = 1;
+    }   
 });
 square5.click (function (e){
-	symbol5.text("X");
+	if ( player_one == 1 ){
+        symbol5.text("X");
+        player_one = 0;
+    } else {
+        symbol5.text("O");   
+        player_one = 1;
+    }   
 });
 square6.click (function (e){
-	symbol6.text("X");
+	if ( player_one == 1 ){
+        symbol6.text("X");
+        player_one = 0;
+    } else {
+        symbol6.text("O");   
+        player_one = 1;
+    }   
 });
 square7.click (function (e){
-	symbol7.text("X");
+	if ( player_one == 1 ){
+        symbol7.text("X");
+        player_one = 0;
+    } else {
+        symbol7.text("O");   
+        player_one = 1;
+    }   
 });
 square8.click (function (e){
-	symbol8.text("X");
+	if ( player_one == 1 ){
+        symbol8.text("X");
+        player_one = 0;
+    } else {
+        symbol8.text("O");   
+        player_one = 1;
+    }   
 });
 square9.click (function (e){
-	symbol9.text("X");
+	if ( player_one == 1 ){
+        symbol9.text("X");
+        player_one = 0;
+    } else {
+        symbol9.text("O");   
+        player_one = 1;
+    }   
 });
+
+
+
