@@ -1,1 +1,46 @@
 *{margin:0; padding:0;}
+
+.content {
+	width:100%;
+}
+
+.title {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-size: 3.0em;
+	font-family: Arial;
+}
+
+.buttons {
+	width:80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+
+.buttons div {
+	margin: 5px;
+	padding:10px;
+	font-size: 1.5em;
+	border-radius: 10px;
+	background-color: white;
+	border: 2px solid black;
+	transition:ease 0.5s;
+	font-family: Arial;
+	display: inline-block;
+}
+
+.buttons div:hover {
+	background-color: #db4437;
+	color:white;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+	font-family: Arial;
+	font-size: 3.0em;
+}
+
