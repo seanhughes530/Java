@@ -57,22 +57,51 @@ var polyenso = {
 
 
 var genre = document.querySelector('.genre');
-/*
+
 var location = document.querySelector('.location');
-var members = $('.members');
-var album = $('.album');
-var songs = $('.songs');
-var former = $('.former');
-var formerAlbum = $('.former-album');
-var formerSongs = $('.former-songs');
-*/
+var members = document.querySelector('.members');
+var album = document.querySelector('.album');
+var songs = document.querySelector('.songs');
+var former = document.querySelector('.former');
+var formerAlbum = document.querySelector('.former-album');
+var formerSongs = document.querySelector('.former-songs');
+
 var info = document.querySelector('p');
 
 
 genre.addEventListener('click',function (e){
 
 		info.innerHTML = polyenso.genre;
+});
 
+location.addEventListener('click',function (e){
+		info.innerHTML = polyenso.location;
+});
+
+members.addEventListener('click',function (e){
+		info.innerHTML = polyenso.members.firstName + polyenso.members.lastName + polyenso.members.instrument;
+});
+
+album.addEventListener('click',function (e){
+		info.innerHTML = polyenso.albums.title;
+});
+
+songs.addEventListener('click',function (e){
+		info.innerHTML = polyenso.albums.songs;
+});
+
+former.addEventListener('click',function (e){
+		info.innerHTML = polyenso.formerlyKnownAs.bandName;
+});
+
+formerAlbum.addEventListener('click',function (e){
+		info.innerHTML = polyenso.formerlyKnownAs.albums.title;
+});
+
+formerSongs.addEventListener('click',function (e){
+		info.innerHTML = polyenso.formerlyKnownAs.albums.theTide.title + polyenso.formerlyKnownAs.albums.theTide.songs;
+		info.innerHTML = polyenso.formerlyKnownAs.albums.birthEater.title + polyenso.formerlyKnownAs.albums.birthEater.songs;
+		info.innerHTML = polyenso.formerlyKnownAs.albums.cleanHead.title + polyenso.formerlyKnownAs.albums.cleanHead.songs;
 });
 
 //for some reason when I try to change the $ over to document.querySelector I get errors and the page can't be found
