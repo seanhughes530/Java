@@ -1,22 +1,22 @@
 var polyenso = {
 	bandName: 'Polyenso',
 	genre: 'indie rock, electronic, folk, jazz, hip-hop',
-	location: 'St.Petersburg Florida',
+	where: 'St.Petersburg, Florida',
 	members: {
 		brennan: {
-			firstName: 'Brennan',
+			firstName: 'Brennan ',
 			lastName: 'Taulbee',
-			instrument: 'lead vocals and keyboard'
+			instrument: ', lead vocals and keyboard'
 		},
 		alex: {
-			firstName: 'Alexander',
+			firstName: 'Alexander ',
 			lastName: 'Schultz',
-			instrument: 'multiple and backup vocals'
+			instrument: ', multiple and backup vocals'
 		},
 		denny: {
-			firstName: 'Denny',
+			firstName: 'Denny ',
 			lastName: 'Agosto',
-			instrument: 'percussion and backup vocals'
+			instrument: ', percussion and backup vocals'
 		}
 	},
 	albums: {
@@ -29,7 +29,7 @@ var polyenso = {
 	formerlyKnownAs: {
 		oceana: {
 			bandName: 'Oceana',
-			location: 'St.Petersburg Florida',
+			where: 'St.Petersburg Florida',
 			albums: {
 				theTide: {
 					title: 'The Tide',
@@ -44,7 +44,7 @@ var polyenso = {
 					songs: 'Breather II. , The Family Desease , The Constrictor , Dead Speaker , Mother Love , In Birth , Boneworks , The Abortion Plan , Boa , I Came As Dust[I Left As Dust] , The Spine Collection , Devil Walk, God Walk[Heaven Walk, Hell Walk]'
 				},
 				cleanHead: {
-					title: 'Clean Head',
+					title: 'Clean Head EP',
 					released: '2010',
 					genre: 'Indie Rock',
 					songs: 'Blue , Barracuda Capitol of the World , Wool God , Joy'
@@ -58,7 +58,7 @@ var polyenso = {
 
 var genre = document.querySelector('.genre');
 
-var location = document.querySelector('.location');
+var where = document.querySelector('.location');
 var members = document.querySelector('.members');
 var album = document.querySelector('.album');
 var songs = document.querySelector('.songs');
@@ -67,44 +67,50 @@ var formerAlbum = document.querySelector('.former-album');
 var formerSongs = document.querySelector('.former-songs');
 
 var info = document.querySelector('p');
+var line1 = document.querySelector('.line-1');
+var line2 = document.querySelector('.line-2');
+var line3 = document.querySelector('.line-3');
 
 
 genre.addEventListener('click',function (e){
-
 		info.innerHTML = polyenso.genre;
 });
 
-location.addEventListener('click',function (e){
-		info.innerHTML = polyenso.location;
+where.addEventListener('click',function (e){
+		info.innerHTML = polyenso.where;
 });
 
 members.addEventListener('click',function (e){
-		info.innerHTML = polyenso.members.firstName + polyenso.members.lastName + polyenso.members.instrument;
+		line1.innerHTML = polyenso.members.brennan.firstName + polyenso.members.brennan.lastName + polyenso.members.brennan.instrument;
+		line2.innerHTML = polyenso.members.alex.firstName + polyenso.members.alex.lastName + polyenso.members.alex.instrument;
+		line3.innerHTML = polyenso.members.denny.firstName + polyenso.members.denny.lastName + polyenso.members.denny.instrument;
 });
 
 album.addEventListener('click',function (e){
-		info.innerHTML = polyenso.albums.title;
+		info.innerHTML = polyenso.albums.OBPL.title;
 });
 
 songs.addEventListener('click',function (e){
-		info.innerHTML = polyenso.albums.songs;
+		info.innerHTML = polyenso.albums.OBPL.songs;
 });
 
 former.addEventListener('click',function (e){
-		info.innerHTML = polyenso.formerlyKnownAs.bandName;
+		info.innerHTML = polyenso.formerlyKnownAs.oceana.bandName;
 });
 
 formerAlbum.addEventListener('click',function (e){
-		info.innerHTML = polyenso.formerlyKnownAs.albums.title;
+		line1.innerHTML = polyenso.formerlyKnownAs.oceana.albums.theTide.title;
+		line2.innerHTML = polyenso.formerlyKnownAs.oceana.albums.birthEater.title;
+		line3.innerHTML = polyenso.formerlyKnownAs.oceana.albums.cleanHead.title;
 });
 
 formerSongs.addEventListener('click',function (e){
-		info.innerHTML = polyenso.formerlyKnownAs.albums.theTide.title + polyenso.formerlyKnownAs.albums.theTide.songs;
-		info.innerHTML = polyenso.formerlyKnownAs.albums.birthEater.title + polyenso.formerlyKnownAs.albums.birthEater.songs;
-		info.innerHTML = polyenso.formerlyKnownAs.albums.cleanHead.title + polyenso.formerlyKnownAs.albums.cleanHead.songs;
+		line1.innerHTML = polyenso.formerlyKnownAs.albums.theTide.title + polyenso.formerlyKnownAs.albums.theTide.songs;
+		line2.innerHTML = polyenso.formerlyKnownAs.albums.birthEater.title + polyenso.formerlyKnownAs.albums.birthEater.songs;
+		line3.innerHTML = polyenso.formerlyKnownAs.albums.cleanHead.title + polyenso.formerlyKnownAs.albums.cleanHead.songs;
 });
 
-//for some reason when I try to change the $ over to document.querySelector I get errors and the page can't be found
-//same happens when I try to add the jQuery script to the top of my html, similar but different error and page can't be found
+// for some reason when I try to change the $ over to document.querySelector I get errors and the page can't be found
+// same happens when I try to add the jQuery script to the top of my html, similar but different error and page can't be found
 
 
