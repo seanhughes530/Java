@@ -64,7 +64,7 @@ var album = document.querySelector('.album');
 var songs = document.querySelector('.songs');
 var former = document.querySelector('.former');
 var formerAlbum = document.querySelector('.former-album');
-var formerSongs = document.querySelector('.former-songs');
+
 
 var info = document.querySelector('p');
 var line1 = document.querySelector('.line-1');
@@ -74,10 +74,14 @@ var line3 = document.querySelector('.line-3');
 
 genre.addEventListener('click',function (e){
 		info.innerHTML = polyenso.genre;
+		line2.innerHTML = "";
+		line3.innerHTML = "";
 });
 
 where.addEventListener('click',function (e){
 		info.innerHTML = polyenso.where;
+		line2.innerHTML = "";
+		line3.innerHTML = "";
 });
 
 members.addEventListener('click',function (e){
@@ -88,14 +92,20 @@ members.addEventListener('click',function (e){
 
 album.addEventListener('click',function (e){
 		info.innerHTML = polyenso.albums.OBPL.title;
+		line2.innerHTML = "";
+		line3.innerHTML = "";
 });
 
 songs.addEventListener('click',function (e){
 		info.innerHTML = polyenso.albums.OBPL.songs;
+		line2.innerHTML = "";
+		line3.innerHTML = "";
 });
 
 former.addEventListener('click',function (e){
 		info.innerHTML = polyenso.formerlyKnownAs.oceana.bandName;
+		line2.innerHTML = "";
+		line3.innerHTML = "";
 });
 
 formerAlbum.addEventListener('click',function (e){
@@ -104,11 +114,6 @@ formerAlbum.addEventListener('click',function (e){
 		line3.innerHTML = polyenso.formerlyKnownAs.oceana.albums.cleanHead.title;
 });
 
-formerSongs.addEventListener('click',function (e){
-		line1.innerHTML = polyenso.formerlyKnownAs.albums.theTide.title + polyenso.formerlyKnownAs.albums.theTide.songs;
-		line2.innerHTML = polyenso.formerlyKnownAs.albums.birthEater.title + polyenso.formerlyKnownAs.albums.birthEater.songs;
-		line3.innerHTML = polyenso.formerlyKnownAs.albums.cleanHead.title + polyenso.formerlyKnownAs.albums.cleanHead.songs;
-});
 
 // for some reason when I try to change the $ over to document.querySelector I get errors and the page can't be found
 // same happens when I try to add the jQuery script to the top of my html, similar but different error and page can't be found
